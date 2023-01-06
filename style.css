@@ -1,4 +1,17 @@
 * {
     font-family: Arial, sans-serif;
-    
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+}
+
+.header-links {
+    justify-content: flex-end;
+}
+
+.header-logo {
+    justify-content: flex-start;
 }
