@@ -4,19 +4,25 @@
     margin: 0;
 }
 .header {
-    display: flex;
     background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
+a {
     color: white;
 }
 .header-links {
-    justify-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 .header-logo {
+    display: flex;
     justify-content: flex-start;
 }
 .body1 {
     background-color: #1f2937;
     color: white;
+    padding: 10px;
 }
 .body2 {
     background-color: white;
@@ -24,6 +30,10 @@
 }
 div#b2header {
     justify-content: center;
+}
+li {
+    display: flex;
+    flex-direction: row;
 }
 button#button1 {
     background-color: #3882F6;
@@ -42,7 +52,17 @@ button#button1:active {
 .body3 {
     background-color: #e5e7eb;
     color: black;
-    padding: 75px;
+    padding: 75px 150px;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#quote {
+    justify-self: right;
+}
+#author-book {
+    font-weight: 700;
 }
 .body4{
     margin: 50px;
@@ -67,5 +87,8 @@ button#b4button {
 .footer {
     background-color: #1f2937;
     color: white;
+    display: flex;
     justify-content: center;
+    padding: 28px;
+    font-size: 13px;
 }
