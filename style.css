@@ -15,3 +15,14 @@
 .header-logo {
     justify-content: flex-start;
 }
+
+.body1 {
+    background-color: #1f2937;
+    color: white;
+}
+
+.body2 {
+    background-color: white;
+    color: #1f2937;
+    justify-content: center;
+}
