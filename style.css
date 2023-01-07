@@ -3,35 +3,28 @@
     border: 0;
     margin: 0;
 }
-
 .header {
     display: flex;
     background-color: #1f2937;
     color: white;
 }
-
 .header-links {
-    justify-content: flex-end;
+    justify-items: flex-end;
 }
-
 .header-logo {
     justify-content: flex-start;
 }
-
 .body1 {
     background-color: #1f2937;
     color: white;
 }
-
 .body2 {
     background-color: white;
     color: #1f2937;
 }
-
 div#b2header {
     justify-content: center;
 }
-
 button#button1 {
     background-color: #3882F6;
     color: white;
@@ -39,7 +32,6 @@ button#button1 {
     border-radius: 5px;
     border-color: #3882F6;
 }
-
 button#button1:hover {
     cursor: pointer;
 }
@@ -47,18 +39,33 @@ button#button1:active {
     transform: scale(0.97);
     box-shadow: 1px 1px 3px black;
 }
+.body3 {
+    background-color: #e5e7eb;
+    color: black;
+    padding: 75px;
+}
 .body4{
     margin: 50px;
 }
-
 div#CallToAction {
     background-color: #3882F6;
     color: white;
-    padding: 25px;
+    padding: 30px 50px 30px 50px;
     border-radius: 5px;
     display: flex;
+    justify-content: space-between;
 }
-
 button#b4button {
     justify-self: flex-end;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0px 25px;
+    font-weight: 600;
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
 }
