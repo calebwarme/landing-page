@@ -31,8 +31,13 @@ a {
     background-color: #1f2937;
     color: white;
     padding: 50px;
+}
+img {
+    height: 100%;
+    width: 400px;
     display: flex;
-    flex-direction: column;
+    justify-self: end;
+    align-self: baseline;
 }
 .body2 {
     background-color: white;
