@@ -36,7 +36,7 @@ img {
     height: 100%;
     width: 400px;
     display: flex;
-    justify-self: end;
+    justify-self: center;
     align-self: baseline;
 }
 .body2 {
